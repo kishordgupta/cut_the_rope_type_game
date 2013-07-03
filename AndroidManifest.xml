@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.kd.grabandcut.menu" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="7" />
+ <meta-data android:value="true" android:name="ADMOB_ALLOW_LOCATION_FOR_ADS" />
+      <uses-permission android:name="android.permission.INTERNET"/>
+       <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".SplashScreen"
+			android:theme="@style/Theme.Transparent"  android:configChanges="orientation|keyboardHidden">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"  android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait"></action>
+				<category android:name="android.intent.category.LAUNCHER"  android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait"></category>
+			</intent-filter>
+		</activity>
+		<activity android:name=".MainScreen"  android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait"></activity>
+		<activity android:name=".LevelScreen"  android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait"></activity>
+		<activity android:name=".OptionMenuScreen"  android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait"></activity>
+		<activity android:name="com.kd.grabandcut.menu.level.TestGame"
+			android:label="@string/app_name" 
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"  android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+  <activity android:name="com.google.ads.AdActivity"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"  />
+		
+
+	</application>
+</manifest>
