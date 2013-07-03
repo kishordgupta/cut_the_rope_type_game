@@ -1,4 +1,4 @@
-cuttheropetypegame
+cut the rope type game
 ==================
 
 cut the rope type game
