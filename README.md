@@ -24,5 +24,4 @@ EATURES
 • Universal App – Optimized for both your handheld and tablet device 
 • Over 60 Achievements to unlock 
 • And 6 Leaderboards to climb
-Developed by: Mostafa Imran, Asif Hasan, Abdullah Al Asad. Md Arifuzzaman
-Graphics: Tanbin Islam Siyam
+Developed by: Kishor datta gupta.
